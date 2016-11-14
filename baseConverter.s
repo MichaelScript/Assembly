@@ -1,18 +1,4 @@
 *----------------------------------------------------------------------
-* Programmer: Michael Green
-* Class Account: 
-* Assignment or Title: Base Converter, prog 3
-* Filename: baseConverter.s
-* Date completed:  04/18/15
-*----------------------------------------------------------------------
-* Problem statement: Convert from base 10 to a given base and error check
-* any inputs
-* Input: Base 10 number to convert and a base to convert to
-* Output: Base 10 number in the converted base
-* Error conditions tested: If there was input, input range, input base,
-* input base 2-16
-* Lots of comments
-*----------------------------------------------------------------------
 *
         ORG     $0
         DC.L    $3000           * Stack pointer value after a reset
@@ -162,7 +148,7 @@ answer:lineout    anstxt
 *----------------------------------------------------------------------
 *       Storage declarations
 
-title:    dc.b    'Program #3, masc0719, Michael Green',0
+title:    dc.b    'Base Converter, Michael Green',0
 skipln:    dc.b    0
 buff1:  ds.b    80
 buff2:    ds.b    80
