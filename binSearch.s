@@ -1,4 +1,4 @@
-* Binary Search in Assembly on the M68k Processor, Michael Green
+* Please forgive the lack of comments in this program, they were stripped out
 ORG $8000
 
 binSearch: link A6,#0
