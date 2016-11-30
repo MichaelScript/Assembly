@@ -22,7 +22,8 @@ ORG     $3000           *  Start at location 3000 Hex
 *  D6 = BASE
 * 
 * ----------------------------------------------------------------------
-* 
+*
+
 start:  	initIO
 setEVT
 			lineout title
